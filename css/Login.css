@@ -1,0 +1,97 @@
+*, ::after, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../img/background_login.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+.container {
+    width: 400px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+
+.box{
+    border-radius:30px;
+    padding: 40px 50px;
+    background-color: #fff;
+}
+
+.logo-box{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0px 30px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+#user,
+#pwd {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 6px 0px 12px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.submit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #24a0ed;
+  color: white;
+}
+
+.submit:hover {
+  background-color: #246aed;
+}
+
+#alert{
+    text-align: center;
+    color: red;
+    overflow: hidden;
+    display: none;
+    width: 100%;
+    padding: 0px 12px;
+    margin: 6px 0px;
+    background-color: rgba(247, 162, 43, 0.229);
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 12px;
+}

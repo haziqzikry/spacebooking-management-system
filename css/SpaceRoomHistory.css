@@ -1,0 +1,69 @@
+.text {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.box {
+  background-color: white;
+  height: 450px;
+  width: 1000px;
+  border-radius: 6px;
+  padding-top: 30px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 0.9em;
+  font-family: "Montserrat", sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  overflow-y: scroll;
+}
+
+.styled-table thead th {
+  text-align: center;
+  background-color: rgb(203, 230, 240);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #062bfd;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #2ca9f1;
+}
+
+.styled-table tbody tr:first-of-type {
+  border-top: 2px solid #1134ff;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #1134ff;
+}
+
+.styled-table tbody tr:hover {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.button {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.button input {
+  background-color: lightpink;
+  margin: auto;
+  padding: 12px;
+  border-radius: 20%;
+  font-weight: bold;
+  border: none;
+}

@@ -1,0 +1,117 @@
+.image {
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+  position: relative;
+  z-index: 0;
+}
+
+button.profile{
+  background: #002447;
+}
+
+
+#propic {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+#propic img {
+  object-fit: cover;
+  margin: auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding: 12px 0px 0px 0px;
+  border-radius: 50px;
+}
+
+.profile-container {
+  width: 400px;
+  margin: auto;
+  border: rgb(204, 0, 255) solid;
+  text-align: center;
+  padding-bottom: 12px;
+  background-color: rgb(235, 219, 250);
+  border-radius: 5px;
+}
+
+.profile-container div{
+  padding-top: 6px;
+}
+
+
+.user-pass-edit {
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  border-spacing: 12px;
+}
+
+.header-credentials {
+  padding: 20px;
+  font-weight: bold;
+}
+
+#username,
+#password {
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.message {
+  padding: 20px;
+  font-size: 12px;
+}
+
+#edit {
+  border-radius: 12px;
+  background-color: #79c5e7;
+  color: #fff;
+  padding: 12px 64px;
+  border: none;
+}
+
+#edit:hover {
+  background: #002447;
+}
+
+.box {
+  margin-top: 20vh;
+  width: 700px;
+  display: grid;
+  place-items: center;
+}
+
+#submitpic {
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 12px;
+  background-color: #79c5e7;
+  color: #fff;
+  margin: 0px 12px 10px 0px;
+}
+
+#submitpic:hover {
+  background-color: #002447;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 64px;
+  cursor: pointer;
+  border-radius: 12px;
+}
